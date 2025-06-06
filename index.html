@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile Widget</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background-color: #1e1e2f;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .widget {
+      width: 250px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      background-color: #0f0f1a;
+      color: white;
+      position: relative;
+      font-size: 14px;
+    }
+
+    .header {
+      background: url('https://media1.tenor.com/m/yKYn61sajwwAAAAd/anime.gif') no-repeat center/cover;
+      height: 100px;
+      position: relative;
+    }
+
+    .avatar {
+      position: absolute;
+      top: 55px;
+      left: 10px;
+      border: 3px solid #1e1e2f;
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      background: url('https://cdn.discordapp.com/avatars/421235623932723201/a_445208316694f606b59eb64f82885001.gif?size=4096') no-repeat center/cover;
+    }
+
+    .content {
+      padding: 50px 10px 10px 10px;
+    }
+
+    .username {
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .subname {
+      font-size: 12px;
+      color: #bbb;
+      margin-top: 2px;
+    }
+
+    .icons {
+      margin-top: 6px;
+    }
+
+    .icons img {
+      width: 20px;
+      height: 20px;
+      margin-right: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="widget">
+    <div class="header">
+      <div class="avatar"></div>
+    </div>
+    <div class="content">
+      <div class="username">kadabar</div>
+      <div class="subname">kraftaffix • ★Ciallo～(∠・·ω ＜ )⌒★</div>
+      <div class="icons">
+        <!-- Add your desired icon URLs below -->
+         <img src="https://cdn.discordapp.com/emojis/1380522970828767323.webp?size=48&name=NitroBadge" alt="icon1">
+        <img src="https://cdn.discordapp.com/emojis/1380518567040254033.webp?size=48&name=HypeSquadBalance" alt="icon2">
+        <img src="https://cdn.discordapp.com/emojis/1380518564494053487.webp?size=48&name=LegacyBadge" alt="icon3">
+        <img src="https://cdn.discordapp.com/emojis/1380518573050429480.webp?size=48&name=CompletedQuestBadge" alt="icon4">
+        <!-- Add or replace icons as needed -->
+      </div>
+    </div>
+  </div>
+</body>
+</html>
